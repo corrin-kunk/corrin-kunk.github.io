@@ -66,7 +66,7 @@ p.callout {
 #secondLayout #para2 { grid-area: p2; }
 #secondLayout #para3 { grid-area: p3; }
 #secondLayout #para4 { grid-area: p4; }
-#secondLayout #callout { grid-area: c1; }
+#secondLayout #callout1 { grid-area: c1; }
 
 /* override the baseline p styles from above */
 #secondLayout p {
