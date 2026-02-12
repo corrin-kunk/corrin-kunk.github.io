@@ -66,8 +66,6 @@ p.callout {
         'p10 p10 p10 c3 c3 c3'
         '. p11 p11 p11 . .'
         '. . c4 c4 c4 .';
-
-    row-gap: 2.5rem;
 }
 
 /* assigned grid areas to the DOM elements */
