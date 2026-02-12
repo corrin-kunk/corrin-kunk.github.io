@@ -39,7 +39,7 @@
 	<h2>Relative Lengths</h2>
 	<p>These are units that specify a length in relation to another length property.</p>
 	<ul>
-		<li><code>em</code> - relative to the font-size of the element (2em means 2 times the size of the current font)</li>
+		<li><code>em</code> - relative to the font-size of the element</li>
 		<li><code>ex</code> - relative to the x-height of the current font (rarely used)</li>
 		<li><code>ch</code> - relative to the width of the "0" (zero) character in the current font</li>
 		<li><code>rem</code> - relative to the font-size of the root element (html)</li>
@@ -48,7 +48,25 @@
 		<li><code>vmin</code> - relative to 1% of the viewport's smaller dimension</li>
 		<li><code>vmax</code> - relative to 1% of the viewport's larger dimension</li>
 	</ul>
+	 
+	<h3>What is <code>em</code> and <code>rem</code>?</h3>
+	<p><code>em</code> is a relative unit that is based on the font-size of the element it is used on. 
+		For example, if an element has a font-size of 16px, then 1em would be equal to 16px.
+		 If you set the font-size of an element to 2em, it would be 32px (2 times the font-size of the element).</p>
+	<p><code>rem</code> is similar to <code>em</code>, but it is relative to the font-size of the root element (html) instead of the current element. 
+		This means that if the root element has a font-size of 16px, then 1rem would always be equal to 16px, regardless of the font-size of the current element.</p>
 
+	<h3>What is <code>vw</code> and <code>vh</code>?</h3>
+	<p><code>vw</code> and <code>vh</code> are relative units that are based on the size of the viewport. 
+		<code>vw</code> is relative to the width of the viewport, while <code>vh</code> is relative to the height of the viewport. 
+		For example, if the viewport is 1000px wide, then 1vw would be equal to 10px (1% of 1000px). 
+		If the viewport is 800px tall, then 1vh would be equal to 8px (1% of 800px).</p>
+
+	<h3>What is <code>vmax</code> and <code>vmin</code>?</h3>
+	<p><code>vmax</code> and <code>vmin</code> are relative units that are based on the size of the viewport. 
+		<code>vmax</code> is relative to the larger dimension of the viewport, while <code>vmin</code> is relative to the smaller dimension of the viewport. 
+		For example, if the viewport is 1000px wide and 800px tall, then 1vmax would be equal to 10px (1% of 1000px) and 1vmin would be equal to 8px (1% of 800px).</p>
+	
 </body>
 
 </html>
