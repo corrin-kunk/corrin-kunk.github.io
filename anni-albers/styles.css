@@ -99,3 +99,7 @@ p.callout {
 #secondLayout #callout1 {
     padding-left:0;
 }
+
+#secondLayout p.callout {
+    float: none;
+}
