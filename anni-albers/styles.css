@@ -34,12 +34,33 @@ p.callout {
 }
 
 #row1 p,
-#row3 p {
+#row3 p, 
+#row5 p,
+#row7 p {
     margin-left: calc(100% * 1 / 6);
 }
 
-#row4 p {
+#row4 p,
+#row6 p {
     margin-left: calc(100% * 2 / 6);
+}
+
+#row8 p,
+#row 10 p {
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row9 p {
+    margin-left: calc(100% * 2 / 6);
+}
+
+/*Author section */
+#row12 p {
+    margin-left: calc(100% 1 / 6);
+}
+
+#row13 p {
+    margin-left: calc(100% 2 / 6);
 }
 
 
