@@ -60,28 +60,26 @@
 	</ul>
 
 	<h3>What is <code>em</code> and <code>rem</code>?</h3>
-	<p><code>em</code> is a relative unit that is based on the font-size of the element it is used on.
-		For example, if an element has a font-size of 16px, then 1em would be equal to 16px.
-		If you set the font-size of an element to 2em, it would be 32px (2 times the font-size of the element).</p>
-	<p><code>rem</code> is similar to <code>em</code>, but it is relative to the font-size of the root element (html)
-		instead of the current element.
-		This means that if the root element has a font-size of 16px, then 1rem would always be equal to 16px, regardless
-		of the font-size of the current element.</p>
+	<p><code>em</code> is a relative unit based on the font size of the element it is inside of.
+		For example, if an element's font size is <code>16px</code>, then <code>1em</code> equals <code>16px</code>.
+		If you set the font size of an element to 2em, it would be 32px (2 times the font size of the element).</p>
+	<p><code>rem</code> is similar to <code>em</code>, but it is relative to the font size of the root (<code>html</code>) element instead.
+	That means <code>1rem</code> stays consistent across the whole page, and makes it easier to control sizing.</p>
 
 	<h3>What is <code>vw</code> and <code>vh</code>?</h3>
 	<p><code>vw</code> and <code>vh</code> are relative units that are based on the size of the viewport.
 		<code>vw</code> is relative to the width of the viewport, while <code>vh</code> is relative to the height of the
 		viewport.
-		For example, if the viewport is 1000px wide, then 1vw would be equal to 10px (1% of 1000px).
-		If the viewport is 800px tall, then 1vh would be equal to 8px (1% of 800px).
+		For example, if the viewport is <code>1000px</code> wide, then <code>1vw</code> would be equal to <code>10px</code> (1% of <code>1000px</code>).
+		If the viewport is <code>800px</code> tall, then <code>1vh</code> would be equal to <code>8px</code> (1% of <code>800px</code>).
 	</p>
 
 	<h3>What is <code>vmax</code> and <code>vmin</code>?</h3>
 	<p><code>vmax</code> and <code>vmin</code> are relative units that are based on the size of the viewport.
 		<code>vmax</code> is relative to the larger dimension of the viewport, while <code>vmin</code> is relative to
 		the smaller dimension of the viewport.
-		For example, if the viewport is 1000px wide and 800px tall, then 1vmax would be equal to 10px (1% of 1000px) and
-		1vmin would be equal to 8px (1% of 800px).
+		For example, if the viewport is <code>1000px</code> wide and <code>800px</code> tall, then <code>1vmax</code> would be equal to <code>10px</code> (1% of <code>1000px</code>) and
+		<code>1vmin</code> would be equal to <code>8px</code> (1% of <code>800px</code>).
 	</p>
 
 </body>
