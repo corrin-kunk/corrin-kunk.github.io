@@ -33,10 +33,45 @@
 
     <h2>Media Features Supported by Media Queries</h2>
     <ul>
-        <li><strong>Orientation</strong>: Detects whether the screen (viewport) is in portraite or landscape mode.</li>
-        <li><strong>min-width</strong>: Applies styles when the viewport is at or wider than a specified width.</li>
-        <li><strong>max-width</strong>: Applies styles when the viewport is at or narrower than a specified width.</li>
-        <li><strong>resolution</strong>: Checks the pixel density of a display.</li>
+        <li><strong>Orientation</strong>: Detects whether the screen (viewport) is in portrait or landscape mode.
+            <textarea>
+            @media screen and (orientation: landscape) {
+                main {
+                    background-color: lightblue;
+                }
+            }
+        </textarea>
+        </li>
+
+        <li><strong>min-width</strong>: Applies styles when the viewport is at or wider than a specified width.
+            <textarea>
+            @media (min-width: 900px) {
+                body {
+                    font-size: 1.1em;
+                }
+            }
+        </textarea>
+        </li>
+
+        <li><strong>max-width</strong>: Applies styles when the viewport is at or narrower than a specified width.
+            <texarea>
+                @media (max-width: 600px) {
+                main {
+                padding: 1em;
+                }
+                }
+            </texarea>
+        </li>
+
+        <li><strong>resolution</strong>: Checks the pixel density of a display.
+            <textarea>
+            @media (min-resolution: 2dppx) {
+                img {
+                    image-rendering: auto;
+                }
+            }
+        </textarea>
+        </li>
     </ul>
 
 </body>
