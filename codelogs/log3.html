@@ -36,7 +36,7 @@
     <hr>
 
     <h2>Media Features Supported by Media Queries</h2>
-    <h3>Orientation:</h3>
+    <h3>Orientation</h3>
     <p>Detects whether the screen (viewport) is in portrait or landscape mode.
     <pre><code>
             @media screen and (orientation: landscape) {
@@ -47,37 +47,38 @@
         </code></pre>
     </p>
 
-    <ul>
-        <li><strong>Min-Width</strong>: Applies styles when the viewport is at or wider than a specified width.
-            <pre><code>
+    <h2>Min-Width</h2>
+    <p>Applies styles when the viewport is at or wider than a specified width.
+    <pre><code>
             @media (min-width: 900px) {
                 body {
                     font-size: 1.1em;
                 }
             }
         </code></pre>
-        </li>
+    </p>
 
-        <li><strong>Max-Width</strong>: Applies styles when the viewport is at or narrower than a specified width.
-            <pre><code>
+    <h2>Max-Width</h2>
+    <p>Applies styles when the viewport is at or narrower than a specified width.
+    <pre><code>
             @media (max-width: 600px) {
                 main {
                     padding: 1em;
                 }
             }
             </code></pre>
-        </li>
+    </p>
 
-        <li><strong>Resolution</strong>: Checks the pixel density of a display.
-            <pre><code>
+    <h2>Resolution</h2>
+    <p>Checks the pixel density of a display.
+    <pre><code>
             @media (min-resolution: 2dppx) {
                 img {
                     image-rendering: auto;
                 }
             }
         </code></pre>
-        </li>
-    </ul>
+    </p>
 
 </body>
 
