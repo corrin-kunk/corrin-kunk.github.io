@@ -1,29 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pacific Rhododendron</title>
+/* mobile-first design for Pacific Rhododendron layout */
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-</head>
-<body>
+body {
+    padding: 0;
+    margin: 0;
+}
 
-	<header>
+header {
+    width: 100vw;
+    height: 100vh;
+}
 
-		<div id="rhodiePicture"></div>
-		<div id="rhodieTitle">
-			<h1>Pacific Rhododendron</h1>
-		</div>
+#rhodiePicture {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
 
-	</header>
+#rhodieTitle {
+  position: absolute;
+    width: 100vw;
+  height: 100vh;
+}
 
-</body>
-</html>
+#rhodieTitle h1 {
+    position:absolute;
+    bottom: 0;
+    left: 1em;
+    color: white;
+    font-size: 2.5em;
+    width: calc(100vw - 2em;)
+}
+
+@media screen and (orientation: landscape) {
+
+    #rhodiePicture {
+        width: 50vw;
+    }
+
+    #rhodieTitle {
+        width: 50vw;
+        left: 50vw
+        background-color: #333;
+    }
+
+    #rhodieTitle h1 {
+        width: 45vw;
+    }
+}
