@@ -1,6 +1,6 @@
 /* mobile-first design for Pacific Rhododendron layout */
 
-    {
+* {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
@@ -47,12 +47,11 @@ header {
 
     #rhodieTitle {
         width: 50vw;
-        left: 50vw 
-        background-color: black;
+        left: 50vw background-color: black;
     }
 
     #rhodieTitle h1 {
         width: 45vw;
     }
 
-} 
+}
