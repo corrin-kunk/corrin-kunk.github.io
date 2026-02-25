@@ -16,6 +16,9 @@ main {
     padding: 2em;
 }
 
+main em {
+    font-size: 1.1em;
+
 header {
     width: 100vw;
     height: 100vh;
