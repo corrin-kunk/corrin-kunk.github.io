@@ -22,12 +22,12 @@ main em {
 
 header {
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 
 #rhodiePicture {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url(Pacific\ Rhododendron\ 2\ -\ Gary\ Monroe-1.jpeg);
     background-size: cover;
@@ -36,7 +36,7 @@ header {
 
 #rhodieTitle {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
