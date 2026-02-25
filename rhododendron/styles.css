@@ -11,6 +11,8 @@ body {
 }
 
 main {
+    width: 100%;
+    max-width: none;
     padding: 2em;
 }
 
@@ -46,10 +48,10 @@ header {
 /* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE*/
 
 @media screen and (orientation: landscape) {
-
     main {
-        max-width: 60vw;
-        margin-left: 5vw
+        max-width: 40vw;
+        margin-left: 5vw;
+        padding-right: 5vw;
     }
 
     #rhodiePicture {
