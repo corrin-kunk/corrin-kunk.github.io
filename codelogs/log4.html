@@ -32,14 +32,12 @@
             border-radius: 8px;
         }
 
-        textarea {
+        pre {
             background-color: #98c1d9;
-            border: 1px solid #3d5a80;
-            font-family: monospace;
-            width: 350px;
-            height: 80px;
-            margin: 0 auto;
-            display: block;
+            padding: 8px;
+            border-radius: 6px;
+            max-width: 350px;
+            margin: 10px auto;
         }
 
         h1,
@@ -92,77 +90,70 @@
 
         <h3>Named Colors</h3>
         <p>Named colors are predefined color names in CSS that you can use instead of writing out color codes.</p>
-        <p><textarea>
-      h1 {
+        <pre><code>
+        p {
         color: purple;
-      }
-    </textarea>
-        </p>
+        }
+    </code></pre>
 
         <h3>Hexadecimal colors</h3>
         <p>Hex colors use a <code>#</code> followed by six characters that represent red, green, and blue values.</p>
-        <p><textarea>
+        <pre><code>
         p {
           color:#ff0000;
         }
-      </textarea>
-        </p>
+    </code></pre>
 
         <h3>Hexadecimal colors with trasparency</h3>
         <p>Hex color can also include two extra characters at the end that control the transparency of the color.</p>
-        <p><textarea>
+        <pre><code>
       p {
         color:#ff000080;
       }
-    </textarea>
-        </p>
+    </code></pre>
 
         <h3>RGB colors</h3>
         <p>RGB colors define color using red, green, and blue values that range from 0-255.</p>
-        <p><textarea>
+        <pre><code>
       p {
         color:rgb(255, 0, 0);
       }
-    </textarea>
-        </p>
+    </code></pre>
 
         <h3>RGBA colors</h3>
         <p>RGBA works the same as RGB but adds an extra value that controls the transparency.</p>
-        <p><textarea>
-    p {
-      color: rgba(255, 0, 0, 0.5);
-    } 
-    </textarea>
-        </p>
+        <pre><code>
+        p {
+        color: rgba(255, 0, 0, 0.5);
+        } 
+        </code></pre>
 
         <h3>HSL colors</h3>
         <p>HSL defines color using hue, saturation, and lightness instead of numbers for red, green, and blue.</p>
-        <p><textarea>
-      p {
-        color: hsl(0, 100%, 50%);
-      }
-    </textarea>
-        </p>
+
+        <pre><code>
+        p {
+            color: hsl(0, 100%, 50%);
+        }
+        </code></pre>
 
         <h3>HSLA colors</h3>
         <p>HSLA works like HSL but includes an alpha value that controls transparency.</p>
-        <p><textarea>
-    p {
-      color: hsla(0, 100%, 50%, 0.5);
-    }
-    </textarea>
-        </p>
+        <pre><code>
+        p {
+        color: hsla(0, 100%, 50%, 0.5);
+        }
+        </code></pre>
 
         <h3>Current Color Keyword</h3>
         <p>The <code>currentcolor</code> keyword uses the element's current text color as the value for another
             property.</p>
-        <p><textarea>
-      p {
-        color: blue;
-        border-color: currentcolor;
-      }
-    </textarea>
-        </p>
+        <pre><code>
+        p {
+            color: blue;
+            border-color: currentcolor;
+        }
+        </code></pre>
 
     </main>
 
