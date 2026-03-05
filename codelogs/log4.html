@@ -1,119 +1,122 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS Color</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		<h1>CSS Color</h1>
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color</title>
 
-	</style>
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+    </style>
 
 </head>
+
 <body>
+ <h1>CSS Color</h1>
+    <main>
+        <h2>What do these CSS properties do?</h2>
 
-	<main>
-  <h2>What do these CSS properties do?</h2>
+        <hr>
 
-  <hr>
+        <h3>Color</h3>
+        <p>The <code>color</code> property sets the text color for an HTML element, such as a paragraph, heading, or
+            link.</p>
 
-  <h3>Color</h3>
-  <p>The <code>color</code> property sets the text color for an HTML element, such as a paragraph, heading, or link.</p>
+        <h3>Background Color</h3>
+        <p>The <code>background-color</code> property changes the background color behind an element, such as a
+            paragraph, div, or the whole page.</p>
 
-  <h3>Background Color</h3>
-  <p>The <code>background-color</code> property changes the background color behind an element, such as a paragraph, div, or the whole page.</p>
+        <h3>Border Color</h3>
+        <p>The <code>border-color</code> property controls the color of the border around an element. It is usually used
+            with the border-style and border-width properties.</p>
 
-  <h3>Border Color</h3>
-  <p>The <code>border-color</code> property controls the color of the border around an element. It is usually used with the border-style and border-width properties.</p>
+        <br>
 
-  <br>
-  
-  <h2>How does CSS accept color as value?</h2>
+        <h2>How does CSS accept color as value?</h2>
 
-<hr>
-  <p>Sentence here.</p>
-  
-  <h3>Named Colors</h3>
-  <p>Named colors are predefined color names in CSS that you can use instead of writing out color codes.</p>
-  <p><textarea>
+        <hr>
+        <p>Sentence here.</p>
+
+        <h3>Named Colors</h3>
+        <p>Named colors are predefined color names in CSS that you can use instead of writing out color codes.</p>
+        <p><textarea>
       h1 {
         color: purple;
       }
     </textarea>
-  </p>
+        </p>
 
-  <h3>Hexadecimal colors</h3>
-  <p>Hex colors use a <code>#</code> followed by six characters that represent red, green, and blue values.</p>
-  <p><textarea>
+        <h3>Hexadecimal colors</h3>
+        <p>Hex colors use a <code>#</code> followed by six characters that represent red, green, and blue values.</p>
+        <p><textarea>
         p {
           color:#ff0000;
         }
       </textarea>
-  </p>
+        </p>
 
-  <h3>Hexadecimal colors with trasparency</h3>
-  <p>Hex color can also include two extra characters at the end that control the transparency of the color.</p>
-  <p><textarea>
+        <h3>Hexadecimal colors with trasparency</h3>
+        <p>Hex color can also include two extra characters at the end that control the transparency of the color.</p>
+        <p><textarea>
       p {
         color:#ff000080;
       }
     </textarea>
-  </p>
+        </p>
 
-  <h3>RGB colors</h3>
-  <p>RGB colors define color using red, green, and blue values that range from 0-255.</p>
-  <p><textarea>
+        <h3>RGB colors</h3>
+        <p>RGB colors define color using red, green, and blue values that range from 0-255.</p>
+        <p><textarea>
       p {
         color:rgb(255, 0, 0);
       }
     </textarea>
-  </p>
+        </p>
 
-  <h3>RGBA colors</h3>
-  <p>RGBA works the same as RGB but adds an extra value that controls the transparency.</p>
-  <p><textarea>
+        <h3>RGBA colors</h3>
+        <p>RGBA works the same as RGB but adds an extra value that controls the transparency.</p>
+        <p><textarea>
     p {
       color: rgba)255, 0, 0, 0.5);
     } 
     </textarea>
-  </p>
+        </p>
 
-  <h3>HSL colors</h3>
-  <p>HSL defines color using hue, saturation, and lightness instead of numbers for red, green, and blue.</p>
-    <p><textarea>
+        <h3>HSL colors</h3>
+        <p>HSL defines color using hue, saturation, and lightness instead of numbers for red, green, and blue.</p>
+        <p><textarea>
       p {
         color: hsl(0, 100%, 50%);
       }
     </textarea>
-  </p>
+        </p>
 
-  <h3>HSLA colors</h3>
-  <p>HSLA works like HSL but includes an alpha value that controls transparency.</p>
-  <p><textarea>
+        <h3>HSLA colors</h3>
+        <p>HSLA works like HSL but includes an alpha value that controls transparency.</p>
+        <p><textarea>
     p {
       color: hsla(0, 100%, 50%, 0.5);
     }
     </textarea>
-  </p>
+        </p>
 
-  <h3>Current Color Keyword</h3>
-  <p>The <code>currentcolor</code> keyword uses the element's current text color as the value for another property.</p>
-    <p><textarea>
+        <h3>Current Color Keyword</h3>
+        <p>The <code>currentcolor</code> keyword uses the element's current text color as the value for another
+            property.</p>
+        <p><textarea>
       p {
         color: blue;
         border-color: currentcolor;
       }
     </textarea>
-  </p>
+        </p>
 
-</main>
+    </main>
 
 </body>
-</html>
 
+</html>
