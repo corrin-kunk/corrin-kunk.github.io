@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #2b1f1f;
+}
+
+/* mobile layout */
+
+header {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+header p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+section img {
+    width: 100%;
+    display: block;
+}
+
+main {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+ul,
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 16px;
+    font-size: 14px;
+}
+
+/* desktop layout */
+
