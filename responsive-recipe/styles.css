@@ -124,9 +124,9 @@ footer {
 
     body {
         display: grid;
-        grid-template-colums: 260px 1fr;
+        grid-template-columns: 260px 1fr;
         grid-template-areas:
-            "header header"
+            "header image"
             "main main"
             "footer footer";
         gap: 20px;
