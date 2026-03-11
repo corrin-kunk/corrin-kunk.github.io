@@ -26,7 +26,6 @@ header {
 main {
     max-width: 420px;
     margin: 0 auto;
-    margin-top: 0;
     padding: 16px;
 }
 
@@ -41,9 +40,18 @@ footer {
 header h1 {
     font-size: 40px;
     line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
-header p {
+#timeBox {
+    border: 2px solid #2b1f1f;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#timeBox p {
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -67,14 +75,18 @@ main section {
 
 h2 {
     font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 ul {
     padding-left: 20px;
+    margin: 0;
 }
 
 ol {
     padding-left: 20px;
+    margin: 0;
 }
 
 li {
@@ -82,23 +94,18 @@ li {
     line-height: 1.5;
 }
 
-/* desktop layout */
-
 @media screen and (min-width: 768px) {
-    
     body {
         max-width: 1100px;
         margin: 20px auto;
         padding: 20px;
         background-color: #efd8d8;
-
         display: grid;
         grid-template-columns: 260px 1fr;
         grid-template-areas:
             "header image"
             "main main"
             "footer footer";
-            
         gap: 20px;
     }
 
@@ -114,6 +121,7 @@ li {
         margin: 0;
         padding: 0;
         grid-area: image;
+        align-self: start;
     }
 
     main {
@@ -121,10 +129,10 @@ li {
         margin: 0;
         padding: 0;
         grid-area: main;
-
         display: grid;
         grid-template-columns: 260px 1fr;
         gap: 20px;
+        align-items: start;
     }
 
     footer {
@@ -152,5 +160,4 @@ li {
         font-size: 26px;
         text-transform: uppercase;
     }
-
-    }
+}
