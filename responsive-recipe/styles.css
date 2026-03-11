@@ -26,6 +26,7 @@ header {
 main {
     max-width: 420px;
     margin: 0 auto;
+    margin-top: 0;
     padding: 16px;
 }
 
@@ -50,10 +51,6 @@ header p {
 #recipeImage img {
     width: 100%;
     display: block;
-}
-
-main {
-    margin-top: 0;
 }
 
 #ingredients {
@@ -152,5 +149,5 @@ li {
         font-size: 26px;
         text-transform: uppercase;
     }
-    
+
     }
