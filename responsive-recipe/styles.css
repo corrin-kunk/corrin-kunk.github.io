@@ -61,6 +61,7 @@ header h1 {
     max-height: 350px;
     object-fit: cover;
     border-radius: 8px;
+    display: block;
 }
 
 #ingredients {
@@ -96,6 +97,12 @@ li {
     line-height: 1.5;
 }
 
+footer p {
+    margin: 0;
+}
+
+/* desktop layout */
+
 @media screen and (min-width: 768px) {
     body {
         max-width: 1100px;
@@ -106,7 +113,7 @@ li {
         grid-template-columns: 260px 1fr;
         grid-template-areas:
             "header image"
-            "main main"
+            "ingredients directions"
             "footer footer";
         gap: 20px;
     }
@@ -123,17 +130,14 @@ li {
         margin: 0;
         padding: 0;
         grid-area: image;
+        align-self: start;
     }
 
     main {
         max-width: none;
         margin: 0;
         padding: 0;
-        grid-area: main;
-        display: grid;
-        grid-template-columns: 260px 1fr;
-        gap: 20px;
-        align-items: start;
+        display: contents;
     }
 
     footer {
@@ -144,12 +148,12 @@ li {
     }
 
     #ingredients {
-        grid-column: 1;
+        grid-area: ingredients;
         margin-bottom: 0;
     }
 
     #directions {
-        grid-column: 2;
+        grid-area: directions;
         margin-bottom: 0;
     }
 
