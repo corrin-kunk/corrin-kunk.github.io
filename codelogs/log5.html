@@ -40,26 +40,39 @@
     </p>
 
     <p>Example:</p>
-    <pre><code>header {
-                background-image: url('background.jpg');}
+    <pre><code>
+        header {
+            background-image: url('background.jpg');
+        }
     </code></pre>
 
     <p>So the main difference is that <code>&lt;img&gt;</code> is used for content images, while <code>background-image</code> is mainly used for design or decorative images.</p>
 
     <h2>Other CSS properties that affect background images</h2>
     <p>Besides <code>background-image</code>, several CSS properties control how background images appear.</p>
-    <ul>
-        <li><code>background-size</code></li>
-            <li>Example:
-                <pre><code>div {
-                    background-image: url('image.jpg');
-                    background-size: cover;
-                }</code></pre>
-            </li>
-        <li><code>background-position</code></li>
-        <li><code>background-repeat</code>: Controls whether the background image repeats (e.g., no-repeat, repeat-x, repeat-y).</li>
-        <li><code>background-attachment</code>: Specifies whether the background image scrolls with the page or is fixed.</li>
 
+    <h3>background-size</h3>
+    <p>This property controls how large the backgroubn image appears within the element.</p>
+    <p>Example:</p>
+    <pre><code>
+        header {
+            background-image: url("background.jpg");
+            background-size: cover;
+        }
+    </code></pre>
+    <p>The value <code>cover</code> makes the image fill the container while keeping its proportions.</p>
+
+    <h3>background-position</h3>
+    <p>This property determine where the image is positioned inside the element.</p>
+    <p>Example:</p>
+    <pre><code>
+        header {
+            background-image: url("background.jpg");
+            background-position: center;
+        }
+    </code></pre>
+
+    <h2>Difference between dimensions and resolution</h2>
 </body>
 
 </html>
