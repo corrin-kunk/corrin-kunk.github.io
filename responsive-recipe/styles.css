@@ -162,6 +162,10 @@ footer p {
         line-height: 0.95;
     }
 
+    #timeBox {
+        margin-top: 40px;
+    }
+
     h2 {
         font-size: 26px;
         text-transform: uppercase;
