@@ -117,11 +117,10 @@ li {
     }
 
     #recipeImage {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        grid-area: image;
-        align-self: start;
+        width: 100%;
+        max-height: 350px;
+        object-fit: cover;
+        border-radius: 8px;
     }
 
     main {
