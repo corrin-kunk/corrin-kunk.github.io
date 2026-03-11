@@ -1,24 +1,65 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Images</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
 
 </head>
+
 <body>
 
-	<h1>Images</h1>
+    <h1>Images</h1>
+
+    <h2>Difference between <code>&lt;img&gt;</code> and <code>background-image</code></h2>
+
+    <p>Using an <code>&lt;img&gt;</code> HTML tag inserts an image directly into the page as part of the document's
+        content.
+        Because the image is part of the HTML structure, it can include alt text for accessibility, which helps screen
+        readers describe the image to users.
+        The <code>&lt;img&gt;</code> element is typically used when the image is important to the meaning or content of
+        the page.
+    </p>
+
+    <p>Example:</p>
+    <pre><code>&lt;img src="image.jpg" alt="Description of image"&gt;</code></pre>
+
+    <p>On the other hand, using <code>background-image</code> in CSS applies an image to an existing HTML element as
+        part of its visual styling.
+        Background images are generally used for decorative purposes, such as page backgrounds, banners, or textures.
+        They do not become part of the page content and usually do not include alt text.
+    </p>
+
+    <p>Example:</p>
+    <pre><code>header {
+                background-image: url('background.jpg');}
+    </code></pre>
+
+    <p>So the main difference is that <code>&lt;img&gt;</code> is used for content images, while <code>background-image</code> is mainly used for design or decorative images.</p>
+
+    <h2>Other CSS properties that affect background images</h2>
+    <p>Besides <code>background-image</code>, several CSS properties control how background images appear.</p>
+    <ul>
+        <li><code>background-size</code></li>
+            <li>Example:
+                <pre><code>div {
+                    background-image: url('image.jpg');
+                    background-size: cover;
+                }</code></pre>
+            </li>
+        <li><code>background-position</code></li>
+        <li><code>background-repeat</code>: Controls whether the background image repeats (e.g., no-repeat, repeat-x, repeat-y).</li>
+        <li><code>background-attachment</code>: Specifies whether the background image scrolls with the page or is fixed.</li>
 
 </body>
-</html>
 
+</html>
