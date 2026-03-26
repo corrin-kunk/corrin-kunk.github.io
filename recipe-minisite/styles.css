@@ -104,7 +104,7 @@ footer p {
 /* desktop layout */
 
 @media screen and (min-width: 768px) {
-    body {
+    .recipe-page {
         max-width: 1100px;
         margin: 20px auto;
         padding: 20px;
