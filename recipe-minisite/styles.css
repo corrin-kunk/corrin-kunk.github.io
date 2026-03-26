@@ -1,0 +1,173 @@
+/* mobile-first design for Marry Me Chicken layout */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+    color: #2b1f1f;
+}
+
+header {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 16px;
+}
+
+#recipeImage {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 16px;
+}
+
+main {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+footer {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 16px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+header h1 {
+    font-size: 40px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#timeBox {
+    border: 2px solid #2b1f1f;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#timeBox p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#recipeImage img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+#ingredients {
+    margin-bottom: 24px;
+}
+
+#directions {
+    margin-bottom: 24px;
+}
+
+main section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* desktop layout */
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1100px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #efd8d8;
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        grid-template-areas:
+            "header image"
+            "ingredients directions"
+            "footer footer";
+        gap: 20px;
+    }
+
+    header {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        grid-area: header;
+    }
+
+    #recipeImage {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        grid-area: image;
+        align-self: start;
+    }
+
+    main {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        display: contents;
+    }
+
+    footer {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        grid-area: footer;
+    }
+
+    #ingredients {
+        grid-area: ingredients;
+        margin-bottom: 0;
+    }
+
+    #directions {
+        grid-area: directions;
+        margin-bottom: 0;
+    }
+
+    header h1 {
+        font-size: 70px;
+        line-height: 0.95;
+    }
+
+    #timeBox {
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+}
