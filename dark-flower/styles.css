@@ -29,9 +29,10 @@ header {
 
 #rhodieTitle {
     position: absolute;
-    inset: 0;
-    background-color: transparent;
-    /* mobile = no color block */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
 }
 
 #rhodieTitle h1 {
@@ -100,7 +101,7 @@ header {
 }
 
 .darkMode #rhodieTitle {
-    background-color: #121212;
+    background-color: #1f3d2b;
 }
 
 .darkMode #toggleDarkMode {
