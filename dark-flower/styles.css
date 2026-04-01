@@ -100,7 +100,7 @@ header {
 }
 
 .darkMode #toggleDarkMode {
-    background-color: #1f3d2b;
-    color: white;
+    background-color: white;
+    color: #121212;
     border: 2px solid white;
 }
