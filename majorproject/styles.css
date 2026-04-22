@@ -31,10 +31,9 @@ h1, h2, h3 {
 }
 
 /* Hero */
-.hero-image {
-    height: 150px;
-    background: lightgray;
-    margin-bottom: 1rem;
+.hero img {
+    width: 100%;
+    height: auto;
 }
 
 .image-credit {
