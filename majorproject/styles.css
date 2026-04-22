@@ -8,3 +8,24 @@ body {
 main {
     padding: 1rem;
 }
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+/* Button styles */
+.button,
+.category-btn {
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
