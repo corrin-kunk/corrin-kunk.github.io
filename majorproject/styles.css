@@ -31,9 +31,34 @@ h1, h2, h3 {
 }
 
 /* Hero */
+.hero-container {
+    position: relative;
+}
+
 .hero img {
     width: 100%;
     height: auto;
+}
+
+.hero-container img {
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* text on top of hero */
+.hero-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 1;
 }
 
 .image-credit {
