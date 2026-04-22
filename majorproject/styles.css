@@ -1,5 +1,6 @@
 
 
+/* Mobile-first styles */
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -59,9 +60,61 @@ h1, h2, h3 {
     marging-bottom: 10px;
 }
 
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
 /* Footer */
 footer {
     border-top: 1px solid black;
     text-align: center;
     padding: 1 rem;
+}
+
+/* Desktop styles */
+@ media (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+
+    .nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding: 0.5rem 0;
+    }
+
+    .nav a {
+        border-top: none;
+    }
 }
