@@ -29,3 +29,39 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
+/* Hero */
+.hero-image {
+    height: 150px;
+    background: lightgray;
+    margin-bottom: 1rem;
+}
+
+/* Categories */
+.category-grid {
+    display: grid;
+    gap: 10px;
+}
+
+/* Featured cards */
+.featured-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.card-image {
+    height: 100px;
+    background: gray;
+    marging-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 1 rem;
+}
