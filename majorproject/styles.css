@@ -157,6 +157,12 @@ footer {
         gap: 10px;
     }
 
+    card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 columns for featured cards */
+        gap: 10px;
+    }
+
     .menu-button {
         display: none; /* Hide menu button on desktop */
     }
