@@ -118,6 +118,29 @@ header {
     border-top: 1px solid #eee;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    min-width: 150px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
 /* Categories */
 .category-grid {
     display: grid;
