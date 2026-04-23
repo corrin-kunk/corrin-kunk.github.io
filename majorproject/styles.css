@@ -108,7 +108,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
 
 .logo {
@@ -124,8 +123,7 @@ header {
 
 /* Navigation */
 .nav {
-    display: flex;
-    flex-direction: column;
+    display: none; /* Hidden by default on mobile */
 }
 
 .nav a {
@@ -143,14 +141,13 @@ footer {
 /* Desktop styles */
 @media (min-width: 768px) {
     .menu-button {
-        display: none;
+        display: none; /* Hide menu button on desktop */
     }
 
     .nav {
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: flex; /* to show nav links */
         gap: 20px;
-        padding: 0.5rem 0;
+        margin-left: auto; 
     }
 
     .nav a {
