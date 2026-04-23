@@ -133,11 +133,12 @@ header {
     z-index: 10;
 }
 
-dropdown-menu a {
+.dropdown-menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid #eee;
 }
 
 /* Show dropdown on hover */
