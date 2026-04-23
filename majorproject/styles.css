@@ -130,6 +130,14 @@ header {
     background: white;
     border: 1px solid #ccc;
     min-width: 150px;
+    z-index: 10;
+}
+
+dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 /* Show dropdown on hover */
