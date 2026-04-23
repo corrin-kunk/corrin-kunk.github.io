@@ -81,7 +81,7 @@ h1, h2, h3 {
 }
 
 /* Featured cards */
-.featured-grid {
+.card-grid {
     display: grid;
     gap: 10px;
 }
@@ -91,10 +91,10 @@ h1, h2, h3 {
     padding: 1rem;
 }
 
-.card-image {
+.card-img {
     height: 100px;
     background: gray;
-    marging-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 header {
@@ -135,11 +135,11 @@ header {
 footer {
     border-top: 1px solid black;
     text-align: center;
-    padding: 1 rem;
+    padding: 1rem;
 }
 
 /* Desktop styles */
-@ media (min-width: 768px) {
+@media (min-width: 768px) {
     .menu-button {
         display: none;
     }
