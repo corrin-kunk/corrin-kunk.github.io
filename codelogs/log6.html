@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code References</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+
+        body {
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        code {
+            background-color: #e6e6e6;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+
+        pre {
+            background-color: #e6e6e6;
+            padding: 10px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Code References</h1>
+
+    <h2>CSS Property: <code>grid-template-columns</code>
+        <p>This property controls how many columns are in a grid and how wide they are. I used it in my site to create layouts like 3-column category buttons and 2-column featured article card sections.</p>
+        
+        <p>Example:</p>
+        <pre><code>
+            .category-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            </code></pre>
+
+        <p>In this example, the <code>repeat(3, 1fr)</code> function creates 3 equal-width columns in the grid.</p>
+
+    </h2>Sources I used
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns">MDN Web Docs - grid-template-columns</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks - A Complete Guide to Grid</a></li>
+        <li><a href="https://www.w3schools.com/cssref/pr_grid-template-columns.asp">W3Schools - CSS grid-template-columns</a></li>
+        <li><a href="https://web.dev/learn/css/grid/">web.dev - Grid</a></li>
+    </ul>
+
+    <h2>Differences between the sites</h2>
+        <h3>MDN</h3>
+        <ul>
+            <li>More technical and detailed</li>
+            <li>Includes syntax and definitions</li>
+            <li>Best for accuracy</li>
+        </ul>
+
+        <h3>CSS-Tricks</h3>
+        <ul>
+            <li>More visual explanations</li>
+            <li>Connects to real design use</li>
+            <li>Easier to understand layout ideas</li>
+        </ul>
+
+        <h3>W3Schools</h3>
+        <ul>
+            <li>Simple and beginner-friendly</li>
+            <li>Includes basic examples</li>
+            <li>Less detailed</li>
+        </ul>
+
+        <h3>web.dev</h3>
+        <ul>
+            <li>Focuses on learning Grid overall</li>
+            <li>Explains when to use it</li>
+            <li>Includes practical tips</li>
+        </ul>
+
+    <h2>What a good code refernce page should include</h2>
+        <ul>
+            <li>Clear definition</li>
+            <li>Simple examples</li>
+            <li>Visual aides</li>
+            <li>Links to more resources</li>
+            <li>Easy navigation (not too dense)</li>
+        </ul>
+
+    <h2>Which sites stood out</h2>
+    <h3>Best overall: MDN</h3>
+        <ul>
+            <li>Most reliable and complete</li>
+            <li>Good for exact definitions</li>
+        </ul>
+    <h3>Best for learning: CSS-Tricks</h3>
+        <ul>
+            <li>Best for understanding concepts</li>
+            <li>Great for visual learners</li>
+        </ul>
+
+    <h3>Best for beginners: W3Schools</h3>
+        <ul>
+            <li>Simple and easy to follow</li>
+            <li>Good for quick reference</li>
+        </ul>
+
+    <h3>Best for practical tips: web.dev</h3>
+        <ul>
+            <li>Focuses on real-world use</li>
+            <li>Helps understand when to use Grid</li>
+
+        </ul>
+
+    </body>
+</html>
