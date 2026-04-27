@@ -182,16 +182,35 @@ footer {
     padding: 1rem;
 }
 
-/* Breakfast page */
-.breakfast-hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+/* Meal Pages */
+.page-hero {
     background-size: cover;
     background-position: center;
     min-height: 260px;
     display: flex;
     align-items: center;
-    padding: 2 rem;
-    margin: -1rem -1rem 2rem -1rem;
+    padding: 2rem;
+    margin: -1rem -1rem 2rem -1rem; /* to offset main padding */
+}
+
+.breakfast-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnJlYWtmYXN0JTIwc2VjdGlvbnt8MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+}
+
+.lunch-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHVuY2glMjBzZWN0aW9ufHwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+
+.dinner-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlubmVyJTIwc2VjdGlvbnt8MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+}
+
+.snack-hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25hY2slMjBzZWN0aW9ufHwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
 }
 
 .hero-text {
@@ -303,7 +322,7 @@ footer {
         color: black;
     }
 
-    .breakfast-hero {
+    .page-hero {
         min-height: 300px;
         padding: 3rem 8%;
     }
