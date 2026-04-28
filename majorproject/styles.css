@@ -196,6 +196,7 @@ footer {
 .breakfast-hero {
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), 
     url('calum-lewis-8Nc_oQsc2qQ-unsplash.jpg');
+    background-position: center top;
 }
 
 .lunch-hero {
