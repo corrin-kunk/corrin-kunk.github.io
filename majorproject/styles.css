@@ -98,8 +98,18 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: bold;
     font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    width: 30px;
+    height: auto;
 }
 
 .menu-button {
