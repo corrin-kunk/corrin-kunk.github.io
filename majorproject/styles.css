@@ -220,13 +220,13 @@ footer {
 
 .hero-text h2 {
     font-size: 2.8rem;
-    color: #234b35;
+    color: white;
     margin-bottom: 0.5rem;
 }
 
 .hero-text p {
     font-size: 1.1rem;
-    color: #234b35;
+    color: white;
 }
 
 .featured-section {
@@ -235,7 +235,7 @@ footer {
 }
 
 .featured-section h2 {
-    color: #234b35;
+    color: black;
     font-size: 1.8rem;
 }
 
@@ -257,7 +257,7 @@ footer {
 
 .recipe-info h3 {
     font-size: 1.6rem;
-    color: #234b35;
+    color: black;
 }
 
 .tag {
