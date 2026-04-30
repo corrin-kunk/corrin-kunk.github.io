@@ -380,6 +380,8 @@ footer {
         gap: 20px;
         margin-left: auto; 
         align-items: center;
+        position: static; /* Reset position for desktop */
+        flex-direction: row; /* Horizontal layout for desktop */
     }
 
     .nav a {
