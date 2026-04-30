@@ -2,93 +2,178 @@
 <html lang="en">
 
 <head>
-
-    <!-- meta tags and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Lunch</title>
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" media="all">
-
 </head>
 
 <body>
 
-    <header>
-        <div class="top-bar">
-            <a href="index.html" class="logo">
-                <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+<header>
+    <div class="top-bar">
+        <a href="index.html" class="logo">
+            <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+        </a>
+
+        <nav class="nav" id="navMenu">
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <a href="#">Meals ▾</a>
+                <div class="dropdown-menu">
+                    <a href="breakfast.html">Breakfast</a>
+                    <a href="lunch.html">Lunch</a>
+                    <a href="dinner.html">Dinner</a>
+                    <a href="snacks.html">Snacks</a>
+                    <a href="mealplans.html">Meal Plans</a>
+                </div>
+            </div>
+
+            <a href="tips.html">Tips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton">≡</button>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-hero lunch-hero">
+        <div class="hero-text">
+            <h2>Lunch</h2>
+            <p>Nutritious and delicious that even the pickiest eaters will love.</p>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <h2>Featured Recipes</h2>
+
+        <!-- CARD 1 -->
+        <article class="featured-card">
+            <a href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">
+                <img src="luther-yonel-yA9guldcm54-unsplash.jpg" alt="Turkey Roll-Ups">
             </a>
 
-            <nav class="nav" id="navMenu">
-                <a href="index.html">Home</a>
-
-                <div class="dropdown">
-                    <a href="#">Meals ▾</a>
-                    <div class="dropdown-menu">
-                        <a href="breakfast.html">Breakfast</a>
-                        <a href="lunch.html">Lunch</a>
-                        <a href="dinner.html">Dinner</a>
-                        <a href="snacks.html">Snacks</a>
-                        <a href="mealplans.html">Meal Plans</a>
-                    </div>
-                </div>
-
-                <a href="tips.html">Tips</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-
-            <button class="menu-button" id="menuButton">≡</button>
-        </div>
-
-    </header>
-
-    <main>
-        <section class="page-hero lunch-hero">
-            <div class="hero-text">
-                <h2>Lunch</h2>
-                <p>Nutritious and delicious that even the pickiest eaters will love.</p>
-            </div>
-        </section>
-
-        <section class="featured-section">
-            <h2>Featured Recipe</h2>
-
-            <article class="featured-card">
-                <a href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">
-                    <img src="luther-yonel-yA9guldcm54-unsplash.jpg" alt="Turkey Roll-Ups">
-                </a>
-
-                <div class="recipe-info">
-                    <h3>
-                        <a href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">
                         Turkey Roll-Ups
-                        </a>
-                    </h3>
+                    </a>
+                </h3>
 
-                    <p>A fun and easy lunch idea that combines lean turkey, cheese, and veggies rolled up in a tortilla.
-                        Perfect for kids who love finger foods!</p>
+                <p class="tag">Kid-Friendly・Quick・Finger Food</p>
 
-                    <a class="recipe-button" href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">View Recipe</a>
+                <p>
+                    A fun and easy lunch idea that combines lean turkey, cheese, and veggies rolled up in a tortilla.
+                    Perfect for kids who love finger foods.
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>10 mins</strong><br>Total Time</p>
+                    <p><strong>Easy</strong><br>Difficulty</p>
+                    <p><strong>2–4 servings</strong><br>Servings</p>
                 </div>
-            </article>
 
-        </section>
-    </main>
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Tortillas, turkey, cheese, lettuce, and optional spreads like cream cheese or hummus.
+                </p>
 
-    <footer>
-        <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
-    </footer>
-    
+                <a class="recipe-button" href="https://www.favfamilyrecipes.com/turkey-roll-ups/" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="featured-card">
+            <a href="RECIPE LINK HERE" target="_blank">
+                <img src="lunch2.jpg" alt="Lunch Recipe 2">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="RECIPE LINK HERE" target="_blank">
+                        Lunch Recipe 2
+                    </a>
+                </h3>
+
+                <p class="tag">Simple・Balanced・Kid-Friendly</p>
+
+                <p>
+                    Add a short description of this lunch idea. Keep it simple and similar to your other cards.
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>15 mins</strong><br>Total Time</p>
+                    <p><strong>Easy</strong><br>Difficulty</p>
+                    <p><strong>2–4 servings</strong><br>Servings</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Add your main ingredients here.
+                </p>
+
+                <a class="recipe-button" href="RECIPE LINK HERE" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="featured-card">
+            <a href="RECIPE LINK HERE" target="_blank">
+                <img src="lunch3.jpg" alt="Lunch Recipe 3">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="RECIPE LINK HERE" target="_blank">
+                        Lunch Recipe 3
+                    </a>
+                </h3>
+
+                <p class="tag">Quick・Make-Ahead・Easy</p>
+
+                <p>
+                    Add a short description of this lunch idea that works for picky eaters.
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>20 mins</strong><br>Total Time</p>
+                    <p><strong>Easy</strong><br>Difficulty</p>
+                    <p><strong>4 servings</strong><br>Servings</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Add your ingredients here.
+                </p>
+
+                <a class="recipe-button" href="RECIPE LINK HERE" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
+</footer>
+
 <script src="script.js"></script>
 
 </body>
-
 </html>
