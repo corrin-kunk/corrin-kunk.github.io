@@ -85,6 +85,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: relative;
 }
 
 /* Logo and site name */
@@ -127,7 +128,30 @@ header {
 .nav.active {
     display: flex;
     flex-direction: column;
-    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    z-index: 20;
+}
+
+.nav.active a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.nav.active .dropdown-menu {
+    position: static;
+    border: none;
+    min-width: 100%;
+}
+
+.nav.active .dropdown-menu a {
+    background-color: #f9f9f9;
 }
 
 .dropdown {
