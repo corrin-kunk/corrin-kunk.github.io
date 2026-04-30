@@ -2,83 +2,179 @@
 <html lang="en">
 
 <head>
-
-    <!-- meta tags and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Snacks</title>
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css" media="all">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="top-bar">
-            <a href="index.html" class="logo">
-                <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+<header>
+    <div class="top-bar">
+        <a href="index.html" class="logo">
+            <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+        </a>
+
+        <nav class="nav" id="navMenu">
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <a href="#">Meals ▾</a>
+                <div class="dropdown-menu">
+                    <a href="breakfast.html">Breakfast</a>
+                    <a href="lunch.html">Lunch</a>
+                    <a href="dinner.html">Dinner</a>
+                    <a href="snacks.html">Snacks</a>
+                    <a href="mealplans.html">Meal Plans</a>
+                </div>
+            </div>
+
+            <a href="tips.html">Tips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton">≡</button>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="page-hero snacks-hero">
+        <div class="hero-text">
+            <h2>Snacks</h2>
+            <p>Quick, simple snack ideas for picky eaters.</p>
+        </div>
+    </section>
+
+    <!-- RECIPES -->
+    <section class="featured-section">
+        <h2>Snack Ideas</h2>
+
+        <!-- CARD 1 -->
+        <article class="featured-card">
+            <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                <img src="apple_nachos.jpg" alt="Apple Nachos">
             </a>
 
-            <nav class="nav" id="navMenu">
-                <a href="index.html">Home</a>
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                        Apple Nachos
+                    </a>
+                </h3>
 
-                <div class="dropdown">
-                    <a href="#">Meals ▾</a>
-                    <div class="dropdown-menu">
-                        <a href="breakfast.html">Breakfast</a>
-                        <a href="lunch.html">Lunch</a>
-                        <a href="dinner.html">Dinner</a>
-                        <a href="snacks.html">Snacks</a>
-                        <a href="mealplans.html">Meal Plans</a>
-                    </div>
+                <p class="tag">Quick・Kid-Friendly・No Cook</p>
+
+                <p>
+                    A fun and healthy way to enjoy apples, topped with nut butter, chocolate, and more!
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>5 mins</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>1-2</p>
                 </div>
 
-                <a href="tips.html">Tips</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Apple slices, nut butter, chocolate chips, granola, and optional toppings like coconut flakes or berries.
+                </p>
 
-            <button class="menu-button" id="menuButton">≡</button>
-        </div>
-
-    </header>
-
-    <main>
-        <section class="page-hero snacks-hero">
-            <div class="hero-text">
-            <h2>Snacks</h2>
-            <p>Healthy and kid-friendly snack ideas to keep your little ones satisfied between meals.</p>
+                <a class="recipe-button" href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                    View Recipe
+                </a>
             </div>
-        </section>
+        </article>
 
-        <section class="featured-section">
+        <!-- CARD 2 -->
+        <article class="featured-card">
+            <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                <img src="yogurt_parfait.jpg" alt="Yogurt Parfait">
+            </a>
 
-            <article class="featured-card">
-                <!-- Add Image here -->
-                <h3>Fluffy Greek Yogurt Pancakes</h3>
-                <p>Delicious fluffy texture and extra protein that kids will love.</p>
-                <a href="https://www.yummytoddlerfood.com/greek-yogurt-pancakes/">View Recipe</a>
-            </article>
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                        Fruit and Yogurt Parfaits
+                    </a>
+                </h3>
 
-        </section>
+                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
 
-        <!-- More snacks recipes can be added here -->
+                <p>
+                    Layered yogurt parfaits with fresh fruit and granola make a delicious and nutritious snack.
+                </p>
 
-    </main>
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>5 min</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>8</p>
+                </div>
 
-    <footer>
-        <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
-    </footer>
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Whole milk plain yogurt, honey, fruit (such as berries, peaches, or mango), and granola.
+                </p>
+
+                <a class="recipe-button" href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="featured-card">
+            <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                <img src="banana_bites.jpg" alt="Banana Bites">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                        Chocolate Peanut Butter Banana Bites
+                    </a>
+                </h3>
+
+                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
+
+                <p>
+                    Great for a quick snack or sweet treat - just slice bananas, spread with peanut butter, and drizzle with chocolate!
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>15 mins</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>30 bites</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Bananas, peanut butter, chocolate chips, and optional toppings like chopped nuts or coconut flakes.
+                </p>
+
+                <a class="recipe-button" href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
+</footer>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
