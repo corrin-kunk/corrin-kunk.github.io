@@ -100,9 +100,21 @@ header {
     padding: 1rem;
 }
 
+/* Logo and site name */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .logo img {
     width: 30px;
     height: auto;
+}
+
+.site-name {
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .menu-button {
