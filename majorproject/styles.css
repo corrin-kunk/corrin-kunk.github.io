@@ -272,6 +272,16 @@ footer {
     color: black;
 }
 
+.recipe-info h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-info h3 a:hover {
+    text-decoration:underline;
+    color: #3d6b3d;
+}
+
 .tag {
     display: inline-block;
     background-color: #edf5e9;
