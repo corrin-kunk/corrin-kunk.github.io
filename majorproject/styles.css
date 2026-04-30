@@ -75,19 +75,6 @@ h1, h2, h3 {
     z-index: 1;
 }
 
-.image-credit {
-    font-size: 0.75rem;
-    text-align: center;
-    color: #666;
-    margin-top: -10px;
-    margin-bottom: 1rem;
-}
-
-.image-credit a {
-    color: #666;
-    text-decoration: underline;
-}
-
 header {
     border-bottom: 1px solid #ccc;
 }
