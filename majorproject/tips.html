@@ -8,7 +8,9 @@
     <title>Tips</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -16,36 +18,34 @@
 
 <body>
 
-<header>
-    <div class="top-bar">
-        <a href="index.html" class="logo">
-            <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
-            <span class="site-name">Healthy Meals for Picky Kids</span>
-        </a>
+    <header>
+        <div class="top-bar">
+            <a href="index.html" class="logo">
+                <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+                <span class="site-name">Healthy Meals for Picky Kids</span>
+            </a>
 
-        <nav class="nav" id="navMenu">
-            <a href="index.html">Home</a>
+            <nav class="nav" id="navMenu">
+                <a href="index.html">Home</a>
 
-            <div class="dropdown">
-                <a href="#">Meals ▾</a>
-                <div class="dropdown-menu">
-                    <a href="breakfast.html">Breakfast</a>
-                    <a href="lunch.html">Lunch</a>
-                    <a href="dinner.html">Dinner</a>
-                    <a href="snacks.html">Snacks</a>
-                    <a href="recipes.html">All Recipes</a>
+                <div class="dropdown">
+                    <a href="#">Meals ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="breakfast.html">Breakfast</a>
+                        <a href="lunch.html">Lunch</a>
+                        <a href="dinner.html">Dinner</a>
+                        <a href="snacks.html">Snacks</a>
+                        <a href="recipes.html">All Recipes</a>
+                    </div>
                 </div>
-            </div>
 
-            <a href="tips.html">Tips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+                <a href="tips.html">Tips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
 
-        <button class="menu-button" id="menuButton">≡</button>
-    </div>
-</header>
-
-<main>
+            <button class="menu-button" id="menuButton">≡</button>
+        </div>
+    </header>
 
     <!-- HERO -->
     <section class="page-hero snacks-hero">
@@ -55,127 +55,100 @@
         </div>
     </section>
 
-    <!-- RECIPES -->
-    <section class="featured-section">
-        <h2>Snack Ideas</h2>
+    <main>
 
-        <!-- CARD 1 -->
-        <article class="featured-card">
-            <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
-                <img src="apple_nachos.jpg" alt="Apple Nachos">
-            </a>
+        <!-- RECIPES -->
+        <section class="intro-section">
+            <h2>Making Meals Easier</h2>
+            <p>
+                Picky eating can be frustrating, especially when families are trying to balance nutrition,
+                time, and what kids will actually eat.
+                These tips focus on small, realistic changes that can help make mealtimes feel more positive.
+            </p>
+        </section>
 
-            <div class="recipe-info">
-                <h3>
-                    <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
-                        Apple Nachos
-                    </a>
-                </h3>
+        <section class="tips-section">
+            <h2>Helpful Strategies</h2>
 
-                <p class="tag">Quick・Kid-Friendly・No Cook</p>
+            <div class="accordion" id="tipsAccordion">
 
-                <p>
-                    A fun and healthy way to enjoy apples, topped with nut butter, chocolate, and more!
-                </p>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipOne" aria-expanded="true" aria-controls="tipOne">
+                            Introduce new foods slowly
+                        </button>
+                    </h3>
 
-                <div class="recipe-details">
-                    <p><strong>Total Time</strong><br>5 mins</p>
-                    <p><strong>Difficulty</strong><br>Easy</p>
-                    <p><strong>Servings</strong><br>1-2</p>
+                    <div id="tipOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Offer a very small amount of a new food next to foods your child already likes.
+                            This can act as a "safe food" and make the new food feel less overwhelming.
+                        </div>
+                    </div>
                 </div>
 
-                <h4>Main Ingredients</h4>
-                <p class="ingredients">
-                    Apple slices, nut butter, chocolate chips, granola, and optional toppings like coconut flakes or berries.
-                </p>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipTwo" aria-expanded="false" aria-controls="tipTwo">
+                            Let kids help choose or prepare food
+                        </button>
+                    </h3>
 
-                <a class="recipe-button" href="https://simple-veganista.com/apple-nachos/" target="_blank">
-                    View Recipe
-                </a>
-            </div>
-        </article>
-
-        <!-- CARD 2 -->
-        <article class="featured-card">
-            <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
-                <img src="yogurt_parfait.jpg" alt="Yogurt Parfait">
-            </a>
-
-            <div class="recipe-info">
-                <h3>
-                    <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
-                        Fruit and Yogurt Parfaits
-                    </a>
-                </h3>
-
-                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
-
-                <p>
-                    Layered yogurt parfaits with fresh fruit and granola make a delicious and nutritious snack.
-                </p>
-
-                <div class="recipe-details">
-                    <p><strong>Total Time</strong><br>5 min</p>
-                    <p><strong>Difficulty</strong><br>Easy</p>
-                    <p><strong>Servings</strong><br>8</p>
+                    <div id="tipTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Kids may be more willing to try foods when they feel involved.
+                            Simple jobs like washing fruit, stirring yogurt, or choosing
+                            between two vegetables can give them some control.
+                        </div>
+                    </div>
                 </div>
 
-                <h4>Main Ingredients</h4>
-                <p class="ingredients">
-                    Whole milk plain yogurt, honey, fruit (such as berries, peaches, or mango), and granola.
-                </p>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipThree" aria-expanded="false" aria-controls="tipThree">
+                            Avoid turning meals into a battle
+                        </button>
+                    </h3>
 
-                <a class="recipe-button" href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
-                    View Recipe
-                </a>
-            </div>
-        </article>
+                    <div id="tipThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Pressure can make picky eating worse. A more neutral approach, with repeated exposure
+                            and low-pressure choices, can help meals feel less stressful over time.
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#tipFour" aria-expanded="false" aria-controls="tipFour">
+                            Make food visually fun
+                        </button>
+                    </h3>
 
-        <!-- CARD 3 -->
-        <article class="featured-card">
-            <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
-                <img src="banana_bites.jpg" alt="Banana Bites">
-            </a>
-
-            <div class="recipe-info">
-                <h3>
-                    <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
-                        Chocolate Peanut Butter Banana Bites
-                    </a>
-                </h3>
-
-                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
-
-                <p>
-                    Great for a quick snack or sweet treat - just slice bananas, spread with peanut butter, and drizzle with chocolate!
-                </p>
-
-                <div class="recipe-details">
-                    <p><strong>Total Time</strong><br>15 mins</p>
-                    <p><strong>Difficulty</strong><br>Easy</p>
-                    <p><strong>Servings</strong><br>30 bites</p>
+                    <div id="tipFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#tipsAccordion">
+                        <div class="accordion-body">
+                            Some kids respond better to foods that feel playful or visually appealing.
+                            Using cookie cutters, colorful ingredients, or simple food shapes can make meals feel less intmidating.
+                        </div>
+                    </div>
                 </div>
 
-                <h4>Main Ingredients</h4>
-                <p class="ingredients">
-                    Bananas, peanut butter, chocolate chips, and optional toppings like chopped nuts or coconut flakes.
-                </p>
+    </main>
 
-                <a class="recipe-button" href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
-                    View Recipe
-                </a>
-            </div>
-        </article>
+    <footer>
+        <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
+    </footer>
 
-    </section>
-
-</main>
-
-<footer>
-    <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
