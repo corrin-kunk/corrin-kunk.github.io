@@ -515,6 +515,21 @@ footer {
     border: 1px solid #d8e6d3;
 }
 
+.tips-image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.tips-image-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid #d8e6d3;
+}
+
 /* Accordion Styles for Tips Page */
 
 .accordion-item {
@@ -584,6 +599,10 @@ footer {
 
     .need-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tips-image-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .menu-button {
