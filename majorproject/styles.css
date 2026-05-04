@@ -4,6 +4,8 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #e9e2d8;
+    color: #222;
 }
 
 main {
