@@ -503,7 +503,46 @@ footer {
     background-color: #fafafa;
 }
 
+/* All Recipes Page */
+.recipe-index {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid #ddd;
+}
 
+.need-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.need-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+.need-card h3 {
+    border-left: 4px solid #3d6b3d;
+    padding-left: 10px;
+}
+
+.need-card ul {
+    padding-left: 1.2rem;
+}
+
+.need-card a {
+    color: black;
+    text-decoration: none;
+}
+
+.need-card a:hover {
+    color: #3d6b3d;
+    text-decoration: underline;
+}
 
 /* Desktop styles */
 @media screen and (min-width: 768px) {
@@ -564,6 +603,10 @@ footer {
     .recipe-details {
         flex-direction: row;
         gap: 2rem;
+    }
+
+    .need-grid {
+        grid-template-columns: repeat (2,1fr);
     }
 }
 
