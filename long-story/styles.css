@@ -51,3 +51,30 @@ p {
     line-height: 1.7;
 }
 
+/* Section Backgrounds */
+
+.surface {
+    background: linear-gradient(to bottom, #5abce6, #156b91);
+}
+
+.reef {
+    background: linear-gradient(to bottom, #0f6b8c, #02384d);
+}
+
+.open-water {
+    background: linear-gradient(to bottom, #012f4d, #011c2e);
+}
+
+.abyss {
+    background: linear-gradient(to bottom, #000f1c, #000814);
+}
+
+.creature {
+    background: linear-gradient(to bottom, #000814, #000000);
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+
