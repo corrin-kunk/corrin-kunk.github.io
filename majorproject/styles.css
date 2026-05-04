@@ -468,7 +468,7 @@ footer {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: white;
+    background-color: #fffdf9;
     border: 1px solid #ddd;
 }
 
@@ -486,7 +486,7 @@ footer {
     padding: 2rem;
     max-width: 1000px;
     margin: 2rem auto;
-    background-color: white;
+    background-color: #fffdf9;
     border: 1px solid #ddd;
 }
 
@@ -498,17 +498,17 @@ footer {
 }
 
 .tip-card {
-    border: 1px solid #ddd;
+    border: 1px solid #f1dcc7;
     padding: 1rem;
-    background-color: #fafafa;
+    background-color: #fff8f2;
 }
 
-/* All Recipes Page */
+/* Recipes Page */
 .recipe-index {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: white;
+    background-color: #fffdf9;
     border: 1px solid #ddd;
 }
 
@@ -520,9 +520,9 @@ footer {
 }
 
 .need-card {
-    border: 1px solid #ddd;
+    border: 1px solid #d8e6d3;
     padding: 1rem;
-    background-color: #fafafa;
+    background-color: #f6fbf4;
 }
 
 .need-card h3 {
