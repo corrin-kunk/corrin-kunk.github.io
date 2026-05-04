@@ -515,7 +515,17 @@ footer {
     border: 1px solid #d8e6d3;
 }
 
+/* Accordion Styles for Tips Page */
+
+.accordion-item {
+    border: 1px solid #d8e6d3;
+    background-color: #fffdf9;
+}
+
 .accordion-button {
+    background-color: #fffdf9;
+    color: #3d5c40;
+    box-shadow: none;
     font-weight: bold;
 }
 
@@ -524,6 +534,16 @@ footer {
     color: #3d6b3d;
 }
 
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #5f7f63;
+}
+
+.accordion-body {
+    background-color: #fffdf9;
+}
+
+/* Quick Meal Ideas Section on Tips Page */
 .quick-list-section {
     padding: 2rem;
     max-width: 1000px;
