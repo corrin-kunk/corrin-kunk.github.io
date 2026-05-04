@@ -32,3 +32,21 @@ body {
     border: 1px solid #2f4f3f;
 }
 
+.button:hover {
+    background-color: #e8dccf;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.link-section,
+.major-project {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border 1px solid #ddd;
+}
+
