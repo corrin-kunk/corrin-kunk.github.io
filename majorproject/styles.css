@@ -271,6 +271,11 @@ footer {
     url('snackshero.jpg');
 }
 
+.tips-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('tipshero.jpg')
+}
+
 .hero-text {
     max-width: 500px;
     text-align: left;
@@ -501,6 +506,7 @@ footer {
         gap: 10px;
     }
 
+    /* Based off 3 cards fitting comfortably on desktop screens */
     .tip-card-grid {
         grid-template-columns: repeat(3, 1fr);
     }
