@@ -1,87 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tips</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f9fc;
-      color: #333;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 1.5rem 1rem;
-      text-align: center;
-    }
-    nav {
-      background-color: #34495e;
-      padding: 0.75rem 1rem;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-right: 1rem;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    .tip-card {
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-      margin-bottom: 1.5rem;
-      padding: 1.25rem;
-    }
-    .tip-card h2 {
-      margin-top: 0;
-      color: #2c3e50;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #ecf0f1;
-      color: #555;
-      margin-top: 2rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tips</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <h1>Helpful Tips</h1>
-    <p>Practical ideas and guidance to improve your workflow</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="tips.html">Tips</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <main>
-    <section class="tip-card">
-      <h2>Stay Organized</h2>
-      <p>Keep a checklist or notes for tasks so you can track progress and reduce stress.</p>
+
+<header>
+    <div class="top-bar">
+        <a href="index.html" class="logo">
+            <img src="fruitslogo.jpg" alt="Healthy Meals for Picky Kids logo">
+            <span class="site-name">Healthy Meals for Picky Kids</span>
+        </a>
+
+        <nav class="nav" id="navMenu">
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <a href="#">Meals ▾</a>
+                <div class="dropdown-menu">
+                    <a href="breakfast.html">Breakfast</a>
+                    <a href="lunch.html">Lunch</a>
+                    <a href="dinner.html">Dinner</a>
+                    <a href="snacks.html">Snacks</a>
+                    <a href="recipes.html">All Recipes</a>
+                    <a href="tips.html">Tips</a>
+                </div>
+            </div>
+
+            <a href="tips.html">Tips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton">≡</button>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="page-hero snacks-hero">
+        <div class="hero-text">
+            <h2>Snacks</h2>
+            <p>Simple snacks that keep kids happy between meals.</p>
+        </div>
     </section>
-    <section class="tip-card">
-      <h2>Take Regular Breaks</h2>
-      <p>Short breaks help maintain focus and prevent burnout over long sessions.</p>
+
+    <!-- RECIPES -->
+    <section class="featured-section">
+        <h2>Snack Ideas</h2>
+
+        <!-- CARD 1 -->
+        <article class="featured-card">
+            <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                <img src="apple_nachos.jpg" alt="Apple Nachos">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                        Apple Nachos
+                    </a>
+                </h3>
+
+                <p class="tag">Quick・Kid-Friendly・No Cook</p>
+
+                <p>
+                    A fun and healthy way to enjoy apples, topped with nut butter, chocolate, and more!
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>5 mins</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>1-2</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Apple slices, nut butter, chocolate chips, granola, and optional toppings like coconut flakes or berries.
+                </p>
+
+                <a class="recipe-button" href="https://simple-veganista.com/apple-nachos/" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="featured-card">
+            <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                <img src="yogurt_parfait.jpg" alt="Yogurt Parfait">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                        Fruit and Yogurt Parfaits
+                    </a>
+                </h3>
+
+                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
+
+                <p>
+                    Layered yogurt parfaits with fresh fruit and granola make a delicious and nutritious snack.
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>5 min</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>8</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Whole milk plain yogurt, honey, fruit (such as berries, peaches, or mango), and granola.
+                </p>
+
+                <a class="recipe-button" href="https://www.simplysissom.com/simpleyogurtparfaits/#tasty-recipes-4586-jump-target" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="featured-card">
+            <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                <img src="banana_bites.jpg" alt="Banana Bites">
+            </a>
+
+            <div class="recipe-info">
+                <h3>
+                    <a href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                        Chocolate Peanut Butter Banana Bites
+                    </a>
+                </h3>
+
+                <p class="tag">Make Ahead・Kid-Friendly・No Cook</p>
+
+                <p>
+                    Great for a quick snack or sweet treat - just slice bananas, spread with peanut butter, and drizzle with chocolate!
+                </p>
+
+                <div class="recipe-details">
+                    <p><strong>Total Time</strong><br>15 mins</p>
+                    <p><strong>Difficulty</strong><br>Easy</p>
+                    <p><strong>Servings</strong><br>30 bites</p>
+                </div>
+
+                <h4>Main Ingredients</h4>
+                <p class="ingredients">
+                    Bananas, peanut butter, chocolate chips, and optional toppings like chopped nuts or coconut flakes.
+                </p>
+
+                <a class="recipe-button" href="https://www.eatingbirdfood.com/peanut-butter-banana-bites/" target="_blank">
+                    View Recipe
+                </a>
+            </div>
+        </article>
+
     </section>
-    <section class="tip-card">
-      <h2>Learn from Feedback</h2>
-      <p>Review comments, ask questions, and adjust your approach based on what you learn.</p>
-    </section>
-    <section class="tip-card">
-      <h2>Practice Consistently</h2>
-      <p>Small, regular practice sessions build habits and improve skills more than one-off efforts.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2026 Tips Page</p>
-  </footer>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Healthy Meals for Picky Kids.</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
