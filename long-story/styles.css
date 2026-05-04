@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: white;
+    overflow-x: hidden;
+    background-color: #00111f;
+}
+
+.story-container {
+    width: 100%;
+}
+
+/* Panels */
+
+.panel {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+/* Text Box */
+
+.text-box {
+    max-width: 550px;
+    background: rgba(0,0,0,0.45);
+    padding: 2rem;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Headings */
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+}
+
