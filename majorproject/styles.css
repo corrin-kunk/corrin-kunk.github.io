@@ -464,6 +464,14 @@ footer {
 }
 
 /* Tips Page */
+.intro-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
 .tips-section {
     padding: 2rem 1rem;
     max-width: 900px;
@@ -475,25 +483,30 @@ footer {
 }
 
 .quick-list-section {
-    padding: 2rem 1rem;
-    max-with: 1000px;
-    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 .tip-card-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-.tip-card: {
+.tip-card {
     border: 1px solid #ddd;
     padding: 1rem;
-    background-color: white;
+    background-color: #fafafa;
 }
 
+
+
 /* Desktop styles */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .category-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 columns for categories */
