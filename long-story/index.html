@@ -2,28 +2,21 @@
 <html>
 
 <head>
-
-    <!-- meta tags and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiny Project 9: It's A Long Story</title>
 
-    <!-- external and internal CSS -->
     <link rel="stylesheet" href="styles.css" media="all">
-    <style>
-        /* in-file CSS here */
-    </style>
 
-    <!-- external and internal JavaScript -->
+    <!-- Animate.css version 3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- WOW.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
     <script>
         new WOW().init();
     </script>
-
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-
 </head>
 
 <body>
@@ -31,40 +24,42 @@
     <main class="story-container">
 
         <section class="panel surface">
-            <div class="text-box wow animate_animated animate_fadeInDown animate_slow">
+            <div class="text-box wow fadeInDown slow">
                 <h1>The Descent</h1>
                 <p>At the surface, the ocean feels endless but safe.</p>
             </div>
         </section>
 
         <section class="panel reef">
-            <div class="text-box wow animate__animated animate__fadeInLeft animate__slow">
+            <div class="text-box wow fadeInLeft slow">
                 <h2>The Reef</h2>
                 <p>A few meters below, the reef glows with color and motion.</p>
             </div>
         </section>
 
         <section class="panel open-water">
-            <div class="text-box wow animate__animated animate__fadeInRight animate__slow">
+            <div class="text-box wow fadeInRight slow">
                 <h2>Open Water</h2>
-                <p>The sunlight begins to fade, and the water grows quiet</p>
+                <p>The sunlight begins to fade, and the water grows quiet.</p>
             </div>
         </section>
 
         <section class="panel abyss">
-            <div class="text-box wow animate__animated animate__fadeInUp animate__slower">
+            <div class="text-box wow fadeInUp slower">
                 <h2>The Abyss</h2>
                 <p>In the deep, the ocean stops feeling familiar.</p>
             </div>
         </section>
 
         <section class="panel creature">
-            <div class="text-box wow animate__animated animate__zoomIn animate__delay-1s">
+            <div class="text-box wow zoomIn delay-1s">
                 <h2>The Bottom</h2>
                 <p>Then something in the dark looks back.</p>
             </div>
         </section>
+
     </main>
+
 </body>
 
 </html>
