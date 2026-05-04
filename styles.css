@@ -75,5 +75,19 @@ h3 {
 .link-list:hover {
     color: #7a4f35;
 }
- 
 
+.major-project p {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .major-project {
+        grid-column: 1 / 3;
+    }
+}
