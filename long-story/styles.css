@@ -54,23 +54,37 @@ p {
 /* Section Backgrounds */
 
 .surface {
-    background: linear-gradient(to bottom, #5abce6, #156b91);
+    background-image:
+     linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)),
+     url("surface.jpg");
 }
 
 .reef {
-    background: linear-gradient(to bottom, #0f6b8c, #02384d);
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+    url("neom-HYHYGLs-Rp8-unsplash.jpg");
 }
 
 .open-water {
-    background: linear-gradient(to bottom, #012f4d, #011c2e);
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+    url("open-ocean.jpg");
 }
 
 .abyss {
-    background: linear-gradient(to bottom, #000f1c, #000814);
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url("pexels-isaacmijangos-12829676.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .creature {
-    background: linear-gradient(to bottom, #000814, #000000);
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.95)),
+    url("bottom.jpg");
+    background-size: cover;
+    background-position: center;
     justify-content: center;
     text-align: center;
     position: relative;
