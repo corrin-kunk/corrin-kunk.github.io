@@ -278,11 +278,6 @@ footer {
     url('snackshero.jpg');
 }
 
-.tips-hero {
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('tipshero.jpg');
-}
-
 .hero-text {
     max-width: 500px;
     text-align: left;
