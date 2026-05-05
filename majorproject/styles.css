@@ -415,6 +415,26 @@ footer {
     color: white;
 }
 
+.thank-you {
+    max-width: 700px;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #fffdf9;
+    border: 1px solid #d8e6d3;
+}
+
+.thank-you h2 {
+    color: #3d5c40;
+    margin-bottom: 1rem;
+}
+
+.thank-you p {
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
 /* Recipe Index Page */
 .index-hero {
     max-width: 900px;
