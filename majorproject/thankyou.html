@@ -1,18 +1,90 @@
-<main>
+<!DOCTYPE html>
+<html lang="en">
 
-    <section class="thank-you">
+<head>
 
-        <h2>Thank You!</h2>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="top-bar">
+
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Healthy Meals for Picky Kids logo">
+
+                <span class="site-name">
+                    Healthy Meals for Picky Kids
+                </span>
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-button" id="navBurger">
+                ☰
+            </button>
+
+            <!-- Navigation -->
+            <nav class="nav" id="menu">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="#">
+                        Meals ▾
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="breakfast.html">Breakfast</a>
+                        <a href="lunch.html">Lunch</a>
+                        <a href="dinner.html">Dinner</a>
+                        <a href="snacks.html">Snacks</a>
+                        <a href="recipes.html">All Recipes</a>
+                    </div>
+                </div>
+                <a href="tips.html">Tips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="thank-you">
+            <h2>Thank You!</h2>
+            <p>
+                Your message has been submitted successfully.
+                We appreciate your feedback and support.
+            </p>
+
+            <a href="index.html" class="button">
+                Return Home
+            </a>
+
+        </section>
+    </main>
+
+    <footer>
 
         <p>
-            Your message has been submitted successfully.
-            We appreciate your feedback and support.
+            &copy; 2026 Healthy Meals for Picky Kids.
         </p>
 
-        <a href="index.html" class="button">
-            Return Home
-        </a>
+    </footer>
 
-    </section>
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
 
-</main>
+</body>
+
+</html>
